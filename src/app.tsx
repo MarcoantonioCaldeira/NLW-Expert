@@ -21,9 +21,7 @@ export function App() {
             date: new Date(),
             content: 'Hello World'
           }}/>
-          {/* <NoteCard />
-          <NoteCard />
-          <NoteCard /> */}
+       
         </div>
     </div>
   )  
