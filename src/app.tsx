@@ -10,6 +10,7 @@ interface Note {
 
 export function App() {
   const [search, setSearch] = useState("");
+
   const [notes, setNotes] = useState<Note[]>(() => {
     const notesOnStorage = localStorage.getItem("notes");
 
@@ -83,5 +84,4 @@ export function App() {
     </div>
   );
 }
-
 
